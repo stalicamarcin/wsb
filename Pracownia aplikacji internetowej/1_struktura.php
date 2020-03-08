@@ -37,6 +37,14 @@ SHOW;
     echo $text; // wyswietlanie tego wyzej ^ 
 
 
+    //nowdoc
+
+    $name = "Anna";
+    echo <<<'X'
+    Imię: $name;
+X;
+
+
 
 
 
